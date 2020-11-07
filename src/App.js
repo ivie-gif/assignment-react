@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from './components/navbar'
 import M from 'materialize-css'
-import {HashRouter, Route} from 'react-router-dom'
+import { HashRouter, Route, Switch} from 'react-router-dom'
+import Navbar from './components/navbar'
 import Home from './components/home'
 import About from './components/about'
 import Contact from './components/contact'
@@ -12,11 +12,11 @@ const App=()=> {
   return (
 <HashRouter>
   <Navbar/>
-<switch>
+<Switch>
 <Route path = '/home' component = {Home}/>
 <Route path = '/about' component = {About}/>
 <Route path = '/contact' component = {Contact}/>
-</switch>
+</Switch>
   <Footer/>
   </HashRouter>
   )}
