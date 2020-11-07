@@ -29,6 +29,7 @@ export default function Navbar() {
                             <ul className="right hide-on-med-and-down">
                                 <li><NavLink to="/home">Home</NavLink></li>
                                 <li><NavLink to="/about">About</NavLink></li>
+                                <li><NavLink to="/contact">Contact</NavLink></li>
                                 </ul>
                         </div>
                     </nav>
