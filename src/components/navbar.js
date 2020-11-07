@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import M from 'materialize-css'
-import {Link, NavLink} from 'react-router-dom'
+import { NavLink} from 'react-router-dom'
 
 const style={
 width:'200px'

@@ -3,6 +3,7 @@ import M from 'materialize-css'
 import Navbar from './navbar';
 import { Button, Form, FormGroup, Label, Input, FormText } from 'react-router-dom';
 import { Container, Row, Col } from 'react-router-dom'
+// import Footer from './components/footer'
 
 
 

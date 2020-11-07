@@ -7,6 +7,7 @@ import {Link, NavLink} from 'react-router-dom'
 
 
 
+
 export default class Home extends Component {
 componentDidMount(){
   document.addEventListener('DOMContentLoaded', function() {
@@ -22,9 +23,9 @@ componentDidMount(){
         return (
             <div>
                 <div class="carousel row carousel-slider">
-    <NavLink className="carousel-item" to="#one!"><img className='caro-image' src="https://media.istockphoto.com/photos/portrait-of-successful-business-professionals-picture-id1150572138?b=1&k=6&m=1150572138&s=170667a&w=0&h=Ad8BBeYBajOw0KIXqsNa-5mpMgeNOmszZYGr9S1zFQU="/></NavLink>
-    <NavLink className="carousel-item" to="#two!"><img className='caro-image' src="https://media.istockphoto.com/photos/business-people-working-at-a-modern-office-picture-id1150572095?b=1&k=6&m=1150572095&s=170667a&w=0&h=j-EQYEkilvjRN8YC7_3ZkORePew6hnLLOfZ2xpFxyRk="/></NavLink>
-    <NavLink className="carousel-item" to="#three!"><img className='caro-image' src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825__340.jpg"/></NavLink>
+    <NavLink className="carousel-item" to="#one!"><img className='caro-image' src="https://media.istockphoto.com/photos/portrait-of-successful-business-professionals-picture-id1150572138?b=1&k=6&m=1150572138&s=170667a&w=0&h=Ad8BBeYBajOw0KIXqsNa-5mpMgeNOmszZYGr9S1zFQU=" alt=""/></NavLink>
+    <NavLink className="carousel-item" to="#two!"><img className='caro-image' src="https://media.istockphoto.com/photos/business-people-working-at-a-modern-office-picture-id1150572095?b=1&k=6&m=1150572095&s=170667a&w=0&h=j-EQYEkilvjRN8YC7_3ZkORePew6hnLLOfZ2xpFxyRk=" alt=""/></NavLink>
+    <NavLink className="carousel-item" to="#three!"><img className='caro-image' src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825__340.jpg" alt=""/></NavLink>
   </div>
 
 

@@ -11,13 +11,13 @@ import Footer from './components/footer'
 const App=()=> {
   return (
 <HashRouter>
-  <Navbar/>
+<Navbar/>
 <Switch>
 <Route path = '/home' component = {Home}/>
 <Route path = '/about' component = {About}/>
 <Route path = '/contact' component = {Contact}/>
 </Switch>
-  <Footer/>
+<Footer/>
   </HashRouter>
   )}
 
